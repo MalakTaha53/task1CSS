@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Playfair+Display&family=Playpen+Sans&family=Roboto+Slab&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.clear{
+    clear : both;
+}
+/* navbar ========================================*/
+.navbar{
+    background-color: black;
+}
+.logo img{
+    width: 200px;
+    padding-top: 15px;
+}
+.logo{
+    float: left;
+}
+.list-of-links{
+    float: right;
+}
+.list-of-links ul{
+    list-style-type: none;
+}
+.list-of-links ul li{
+    float: left;
+    padding-top: 15px;
+}
+.list-of-links ul li a{
+    text-decoration-line: none;
+    color: white;
+    text-transform: uppercase;
+    margin-right: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+/* servises ========================================*/
+.services{
+    background-color: beige;
+    text-align: center;
+}
+.service{
+    float: left;
+    width: 33.33%;
+}
+.service img{
+    width: 100px;
+    margin-bottom: 20px;
+}
+.services h2{
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 40px;
+    padding-top: 50px;
+    margin-bottom: 20px;
+}
+.services p{
+    color: rgb(107, 95, 95);
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 60px;
+}
+.paraghrap-italic{
+    font-style: italic;
+    margin-bottom: 30px;
+}
+.service h3{
+    margin-bottom: 25px;
+    font-size: 25px;
+    font-weight: 900;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* portfolio===========================*/
+.portfolio{
+    background-color: lightgray;
+    text-align: center;
+}
+.portfolio h2{
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 40px;
+    padding-top: 50px;
+    margin-bottom: 20px;
+}
+.portfolio p{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(107, 95, 95);
+    font-style: italic;
+    margin-top: 15px;
+    padding-bottom: 40px;
+}
+.portfolio-item h3{
+    margin-top: 15px;
+    font-weight: 900;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.portfolio-item{
+    float: left;
+    width: 33.33%;
+    background-color: white;
+    padding-right: 25px;
+    margin-bottom: 40px;
+}
+.portfolio img{
+    width: 100%;
+}
+/* team==========================*/
+.team{
+    background-color: beige;
+    text-align: center;
+}
+.team h2{
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 40px;
+    padding-top: 50px;
+    margin-bottom: 20px;
+}
+.team p{
+    margin-bottom: 20px;
+    color: rgb(107, 95, 95);
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 60px;
+}
+.team-item h3{
+    margin-top: 15px;
+    margin-bottom: 8px;
+    font-size: 25px;
+    font-weight: 900;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.team-item{
+    float: left;
+    width:33.33%;
+    padding-right: 30px;
+}
+.team img{
+    width: 100%;
+}
+.last-paraghrap p{
+    width: 60%;
+    height: fit-content;
+    margin: auto;
+    line-height: 25px;
+    margin-top: 10px;
+}
+.team-item ul{
+    list-style-type: none;
+}
+.team-item ul li{
+    float: left;
+    width: 33.33%;
+    padding-right: 30px;
+}
+/* Websites=====================*/
+.Websites ul{
+    list-style-type: none;
+}
+.Website ul li{
+    float: left;
+    width: 25%;
+}
+.Website ul li a img{
+    width: 100%;
+    padding: 40px;
+}
+.Website .facebook{
+    padding-top: 10px;
+}
+.Website .microsoft{
+   padding-top: 10px;
+}
+/* footer ======================*/
+.footer{
+    background-color: lightgray;
+    text-align: center;
+}
+.copyright ,.links-icons ,.privacy-terms{
+    float: left;
+    width: 33.33%;
+    padding-top: 20px;
+}
+.footer ul{
+    list-style-type: none;
+}
+.privacy-terms {
+    padding-left: 100px;
+}
+.privacy-terms ul li{
+   float: left;
+   margin-right: 20px;
+}
+.privacy-terms ul li a{
+    text-decoration-line: none;
+    color: black;
+}
+.links-icons ul li{
+    float: left;
+    width: 33.33%;
+    padding-right: 10px;
+}
+.links-icons ul li a img{
+    width: 100%;
+}
